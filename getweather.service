@@ -1,0 +1,10 @@
+[Unit]
+Description=Weather Reminder
+
+
+[Service]
+ExecStart=/home/vagrant/Documents/week10/check_weather
+
+[Install]
+WantedBy=multi-user.target
+

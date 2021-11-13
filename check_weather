@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+echo "rewriting current_weather with curl wttr.in"
+
+#run curl wttr.in with and 
+#write into current_weather funct: getWeather
+getWeather () {
+  curl wttr.in > /home/vagrant/Documents/week10/current_weather
+  }
+#execute geteather
+getWeather
+
+#use cat to view properly
+
